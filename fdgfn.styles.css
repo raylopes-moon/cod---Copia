@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Nanum Myeongjo", serif;
+}
+
+:root {
+    --color-p: #cae8fa;
+    --color-p-2: #D0F0FF;
+    --azul-gelo: #B0C5D6;
+    --azul-gelo-escuro: #908AE4;
+    --azul:#557791;
+    --azul-apagado: #2542A7;
+    --azul-escuro: #0C0121;
+    --azul-forte: #0c0121b9;
+    --degrade-btn: #2a3a63, #4a6687;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+     background: var(--azul-escuro);
+     color: var(--color-p);
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+.hearder {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--azul-forte);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 2.7rem;
+    color: var(--color-p);
+    font-weight: 600;
+    cursor: default;
+}
+
+.navbar a{
+    font-size: 1.7rem;
+    color: var(--color-p);
+    margin-left: 4rem;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: var(--azul);
+}
+
+#menu-icon{
+    font-size: 3.6rem;
+    color: var(--color-p);
+    display:none;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-img img{
+    width: 30VW;
+}
+
+.home-content h3 {
+    font-size: 3.2rem;
+    font-weight: 300;
+}
+
+.home-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+}
+
+span {
+    color: var(--azul-gelo-escuro);
+}
+
+.home-content h1{
+    font-size: 5.6rem;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.home-content P {
+    font-size: 1.6rem;
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--color-p-2);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--color-p-2);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+}
+
+.social-media a:hover{
+    background: var(--color-p-2);
+    color: var(--azul-gelo-escuro);
+    box-shadow: 0 0 1rem var(--color-p-2);
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--color-p-2);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--color-p-2);
+    font-size: 1.6rem;
+    color: var(--azul-apagado);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
+
+.autor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--azul-escuro2);
+}
+
+.autor-img img{
+    width: 29vw;
+}
+
+.heading {
+    text-align: none;
+    font-size:  3.5rem;
+}
+
+.autor-content  {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.autor-content h3 {
+    font-size: 1.6rem;
+    
+}
+
+.autor-content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+.personagens h2 {
+    margin-bottom: 4rem;
+}
+
+
+
+.personagens-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+.personagens-container .personagem-box{
+    flex: 1 1 30rem;
+    background: var(--azul-forte);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--azul);
+    transition: .5s ease;
+}
+
+.personagens-container .personagem-box:hover{
+    border-color:var(--color-p-2) ;
+    transform: scale(1.02);
+}
+.personagem-box i{
+    font-size: 3rem;
+    color: var(--color-p);
+}
+.personagem-img img{
+    width: 20VW;
+}
+
+.personagens-container h3 {
+    font-size: 2.2rem;
+    margin: 2rem 0;
+}
+
+.personagens-container p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
