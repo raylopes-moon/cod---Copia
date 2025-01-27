@@ -231,3 +231,58 @@ span {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
+
+
+.obras h2 {
+    margin-bottom: 4rem;
+}
+
+.obras p {
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+.obras-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+.obras-container .obras-box{
+    flex: 1 1 30rem;
+    background: var(--azul-forte);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--azul);
+    transition: .5s ease;
+}
+
+.obras-container .obras-box:hover{
+    border-color:var(--color-p-2) ;
+    transform: scale(1.02);
+}
+
+.obras-img img{
+    width: 15VW;
+}
+
+.obras-container h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 2rem 0;
+}
+
+.obras-container h3 {
+    font-size: 2.2rem;
+    margin: 2rem 0;
+}
+
+.obras-container p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
