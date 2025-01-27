@@ -169,6 +169,7 @@ span {
 }
 
 .autor-content h3 {
+    
     font-size: 1.6rem;
     
 }
@@ -182,7 +183,11 @@ span {
     margin-bottom: 4rem;
 }
 
-
+.personagens p {
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
 
 .personagens-container {
     display: flex;
@@ -216,11 +221,13 @@ span {
 }
 
 .personagens-container h3 {
+    text-align: center;
     font-size: 2.2rem;
     margin: 2rem 0;
 }
 
 .personagens-container p {
+    text-align: center;
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
