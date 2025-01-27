@@ -37,7 +37,7 @@ section {
     min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
-.hearder {
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -82,7 +82,7 @@ section {
 }
 
 .home-img img{
-    width: 30VW;
+    width: 25VW;
 }
 
 .home-content h3 {
@@ -125,7 +125,7 @@ span {
 
 .social-media a:hover{
     background: var(--color-p-2);
-    color: var(--azul-gelo-escuro);
+    color: var(--azul-escuro);
     box-shadow: 0 0 1rem var(--color-p-2);
 }
 
@@ -155,15 +155,15 @@ span {
 }
 
 .autor-img img{
-    width: 29vw;
+    width: 25vw;
 }
 
 .heading {
-    text-align: none;
+    text-align: center;
     font-size:  3.5rem;
 }
 
-.autor-content  {
+.autor-content h2 {
     text-align: left;
     line-height: 1.2;
 }
@@ -212,7 +212,7 @@ span {
     color: var(--color-p);
 }
 .personagem-img img{
-    width: 20VW;
+    width: 15VW;
 }
 
 .personagens-container h3 {
