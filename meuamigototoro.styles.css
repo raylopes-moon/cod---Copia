@@ -12,16 +12,16 @@
 }
 
 :root {
-    --color-p: #cae8fa;
+    --color-p: #f7f7f7;
     --color-p-1: hsl(49, 56%, 67%);
-    --color-p-2: #D0F0FF;
-    --azul-gelo: #B0C5D6;
-    --azul-gelo-escuro: #908AE4;
-    --azul:#557791;
-    --azul-apagado: #2542A7;
-    --azul-escuro: #0C0121;
-    --azul-forte: #0c0121b9;
-    --degrade-btn: #2a3a63, #4a6687;
+    --color-p-2: #fffcf1;
+    --azul-gelo: #ffffff;
+    --azul-gelo-escuro: #e6e9d0;
+    --azul:#C6BD9C;
+    --azul-apagado: #737373;
+    --azul-escuro: #737373;
+    --azul-forte: #545858;
+    --degrade-btn: #879773, #98A88D;
 }
 
 html{
@@ -165,7 +165,7 @@ span {
 }
 
 .sobre-img img{
-    width: 25vw;
+    width: 23vw;
 }
 
 .heading {
@@ -189,7 +189,60 @@ span {
     margin: 2rem 0 3rem;
 }
 
-.criador {
+.personagens h2 {
+    margin-bottom: 4rem;
+}
+
+.personagens p {
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+.personagens-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+.personagens-container .personagem-box{
+    flex: 1 1 30rem;
+    background: var(--azul-escuro);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--azul);
+    transition: .5s ease;
+}
+
+.personagens-container .personagem-box:hover{
+    border-color:var(--color-p-1) ;
+    transform: scale(1.02);
+}
+.personagem-box i{
+    font-size: 3rem;
+    color: var(--color-p);
+}
+.personagem-img img{
+    width: 15VW;
+}
+
+.personagens-container h3 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 2rem 0;
+}
+
+.personagens-container p {
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+.autor {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,7 +250,7 @@ span {
     background: var(--azul-escuro2);
 }
 
-.criador-img img{
+.autor-img img{
     width: 25vw;
 }
 
@@ -206,18 +259,18 @@ span {
     font-size:  3.5rem;
 }
 
-.criador-content h2 {
+.autor-content h2 {
     text-align: left;
     line-height: 1.2;
 }
 
-.criador-content h3 {
+.autor-content h3 {
     
     font-size: 1.6rem;
     
 }
 
-.criador-content p {
+.autor-content p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
@@ -243,7 +296,7 @@ span {
 
 .obras-container .obras-box{
     flex: 1 1 30rem;
-    background: var(--azul-forte);
+    background: var(--azul-escuro);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
