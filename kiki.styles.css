@@ -12,16 +12,16 @@
 }
 
 :root {
-    --color-p: #f7f7f7;
+    --color-p: #272525;
     --color-p-1: hsl(49, 56%, 67%);
     --color-p-2: #fffcf1;
     --azul-gelo: #ffffff;
     --azul-gelo-escuro: #e6e9d0;
-    --azul:#C6BD9C;
-    --azul-apagado: #c0bbbb;
-    --azul-escuro: #737373;
-    --azul-forte: #73737385;
-    --degrade-btn: #879773, #98A88D;
+    --azul:hsl(0, 0%, 100%);
+    --azul-apagado: #B6C6D8;
+    --azul-escuro: #73A5D8;
+    --azul-forte: #73a5d883;
+    --degrade-btn: #243355, #19191E;
 }
 
 html{
@@ -72,7 +72,7 @@ section {
 
 #menu-icon{
     font-size: 3.6rem;
-    color: var(--color-p);
+    color: var(--color-p-1);
     display:none;
 }
 
@@ -224,7 +224,7 @@ span {
 }
 .personagem-box i{
     font-size: 3rem;
-    color: var(--color-p);
+    color: var(--color-p-2);
 }
 .personagem-img img{
     width: 15VW;
