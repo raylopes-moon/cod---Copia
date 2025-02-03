@@ -14,13 +14,13 @@
 :root {
     --color-p: #ffffff;
     --color-p-1: hsl(49, 56%, 67%);
-    --color-p-2: #CDC9C8;
+    --color-p-2:#ECDCAB;
     --azul-gelo: #B0C5D6;
-    --azul-gelo-escuro: #9ddaf1;
-    --azul:#75b3ca;
-    --azul-apagado: #212B2E;
-    --azul-escuro: #314045;
-    --azul-forte: #31404562;
+    --azul-gelo-escuro: #E1D07D;
+    --azul:#6080D4;
+    --azul-apagado: #002045;
+    --azul-escuro: #002045;
+    --azul-forte: #00204575;
     --degrade-btn: #2a3a63, #4a6687;
 }
 
@@ -83,7 +83,7 @@ section {
 }
 
 .home-img img{
-    width: 25VW;
+    width: 30VW;
 }
 
 .home-content h3 {
@@ -151,7 +151,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 2rem;  
     background: var(--azul-escuro2);
 }
 
@@ -165,7 +165,7 @@ span {
 }
 
 .sobre-img img{
-    width: 25vw;
+    width: 30vw;
 }
 
 .heading {
@@ -189,7 +189,60 @@ span {
     margin: 2rem 0 3rem;
 }
 
-.criador {
+.personagens h2 {
+    margin-bottom: 4rem;
+}
+
+.personagens p {
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+.personagens-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+.personagens-container .personagem-box{
+    flex: 1 1 30rem;
+    background: var(--azul-forte);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--azul);
+    transition: .5s ease;
+}
+
+.personagens-container .personagem-box:hover{
+    border-color:var(--color-p-1) ;
+    transform: scale(1.02);
+}
+.personagem-box i{
+    font-size: 3rem;
+    color: var(--color-p);
+}
+.personagem-img img{
+    width: 15VW;
+}
+
+.personagens-container h3 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 2rem 0;
+}
+
+.personagens-container p {
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+.autor {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,9 +250,8 @@ span {
     background: var(--azul-escuro2);
 }
 
-.criador-img img{
+.autor-img img{
     width: 25vw;
-    text-align: center;
 }
 
 .heading {
@@ -207,18 +259,18 @@ span {
     font-size:  3.5rem;
 }
 
-.criador-content h2 {
+.autor-content h2 {
     text-align: left;
     line-height: 1.2;
 }
 
-.criador-content h3 {
+.autor-content h3 {
     
     font-size: 1.6rem;
     
 }
 
-.criador-content p {
+.autor-content p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
