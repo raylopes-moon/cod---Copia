@@ -76,36 +76,6 @@ section {
     display:none;
 }
 
-.musica-container .musica-box {
-    top: 5px; 
-    left: 5px; 
-    width: 30%; /* Adjusted width for better visibility */
-    position: fixed; 
-    flex: 0 0 30rem; /* Flexbox properties */
-    background: var(--azul-forte);
-    padding: 3rem 2rem 4rem;
-    border-radius: 2rem;
-    text-align: left;
-    border: .2rem solid var(--azul);
-    transition: .5s ease;
-}
-
-.musica-container .musica-box:hover {
-    border-color: var(--color-p-1);
-    transform: scale(1.02);
-}
-
-.musica-box i {
-    font-size: 3rem;
-    color: var(--color-p);
-}
-
-.musica-box audio {
-    width: 100%; /* Make audio player take full width of the box */
-    margin-top: 1rem; /* Add some space above the audio player */
-    background: transparent; /* Transparent background */
-    border: none; /* Remove default border */
-}
 
 .home{
     display: flex;
